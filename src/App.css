@@ -1,0 +1,94 @@
+.app {
+  height: 100vh;
+  background-color: white;
+}
+
+.app-dark {
+  height: 100vh;
+  background-color: black;
+}
+
+.app-row {
+  border: 1px solid black;
+  width: 500px;
+  margin: 100px auto;
+}
+
+.mode-button {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.mode-button button {
+   width: 200px;
+   display: flex;
+   justify-content: center;
+   padding: 10px 7px;
+   background-color: white;
+   font-weight: bold;
+   font-size: 17px;
+   border: 1px solid black !important;
+}
+
+.mode-button-dark {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.mode-button-dark button {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 7px;
+  background-color: #666;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  border: 1px solid black !important;
+}
+
+.theme-button {
+  display: flex;
+}
+
+.app-row div {
+  height: 40px;
+  display: flex;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+.input {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 15px;
+  align-items: center;
+}
+
+.input-dark {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 15px;
+  align-items: center;
+  background-color: white;
+}
+
+.keypad {
+  border-right: 1px solid black;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.keypad-row {
+  background-color: #f0f0f0;
+}
+
+.keypad-row-dark {
+  background-color: #666;
+  color: white;
+}
